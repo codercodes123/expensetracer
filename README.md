@@ -1,9 +1,11 @@
+
+<img width="966" height="943" alt="image" src="https://github.com/user-attachments/assets/185a6d00-73ab-4c14-b357-b5fceab8d437" />
+
 # 💰 Real-Time Bank SMS Expense Tracker
 
 > **AI for Bharat Week 2: Lazy Automation** | Built with Kiro Agent in under 2 hours!
 
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://python.org)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![AI for Bharat](https://img.shields.io/badge/AI%20for%20Bharat-Week%202-orange.svg)](https://community.aws/ai-for-bharat)
 
 ## 🎯 The Problem
@@ -37,24 +39,26 @@ A **zero-manual-work** expense tracking system:
 
 ## 📸 Screenshots
 
-### MacroDroid Macro Setup
-![MacroDroid Setup](screenshots/macrodroid_setup.png)
-*MacroDroid automatically captures MAHABK SMS and writes to file*
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2e45e731-12a6-481b-9118-cfba5f1beba0" width="300">
+</p>
 
+## 📌 Features
+- Automatically detects specific WhatsApp messages  
+- Triggers custom actions  
+- Runs silently in the background  
+- Lightweight and easy to customize  
 ### Raw Expenses File
-![Expenses Raw](screenshots/expenses_raw.png)
+![Expenses Raw]<img width="1908" height="278" alt="image" src="https://github.com/user-attachments/assets/a89d414c-c41a-4891-b8f2-96f2aa3d1db1" />
+
 *expenses_raw.txt with captured bank SMS*
 
 ### Real-Time Watcher (main.py)
-![Live Dashboard](screenshots/live_dashboard.png)
+![Live Dashboard]<img width="1137" height="897" alt="Screenshot 2025-12-07 143008" src="https://github.com/user-attachments/assets/91938c6b-f1b9-43ca-9442-2acad36ccedd" />
 *Live dashboard showing real-time transaction updates*
 
-### Expense Summary (expense_summary.py)
-![Summary Report](screenshots/summary_report.png)
-*Detailed expense summary with statistics*
-
 ### Kiro Agent Chat
-![Kiro Chat](screenshots/kiro_chat.png)
+![Kiro Chat]<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/16bdb69a-9266-4aee-b581-2cc80664cfc6" />
 *This entire project was built with Kiro's help!*
 
 ## 🚀 Quick Start
@@ -70,11 +74,6 @@ cd lazy-expense-tracker
 python main.py
 ```
 
-### 3. Run the Summary Report
-```bash
-python expense_summary.py
-```
-
 ## 📱 MacroDroid Setup
 
 1. **Install MacroDroid** from Play Store
@@ -82,7 +81,7 @@ python expense_summary.py
 
 **Trigger:**
 - SMS Received
-- Content contains: "MAHABK"
+- Content contains: "Your Bank Contact id(eg: Bank of Maharashtra ->MAHABANK"
 
 **Actions:**
 - Write to File
@@ -100,40 +99,10 @@ python expense_summary.py
 ```
 lazy-expense-tracker/
 ├── main.py              # Real-time transaction watcher
-├── expense_summary.py   # Detailed summary generator
-├── expenses_raw.txt     # Sample transaction data
 ├── requirements.txt     # Dependencies (standard library only!)
 ├── README.md           # This file
 ├── .kiro/
 │   └── kiro_chat.md    # Kiro conversation log
-└── screenshots/        # Screenshot placeholders
-    ├── macrodroid_setup.png
-    ├── expenses_raw.png
-    ├── live_dashboard.png
-    ├── summary_report.png
-    └── kiro_chat.png
-```
-
-## 📊 Sample Output
-
-```
-╔══════════════════════════════════════════════════════════════════════════╗
-║   💰  R E A L - T I M E   E X P E N S E   T R A C K E R  💰             ║
-║              🏦  Bank of Maharashtra Live Monitor  🏦                    ║
-╚══════════════════════════════════════════════════════════════════════════╝
-
-  ● LIVE Watching for new transactions...
-
-  ┌─────────────────────────────┐  ┌─────────────────────────────┐
-  │  📥 TOTAL RECEIVED          │  │  📤 TOTAL SPENT             │
-  │         ₹19,000.00          │  │          ₹7,901.00          │
-  │  4 transactions             │  │  16 transactions            │
-  └─────────────────────────────┘  └─────────────────────────────┘
-
-  ┌─────────────────────────────────────────────────────────────────┐
-  │  📈 NET BALANCE:  +₹11,099.00  (PROFIT)                         │
-  └─────────────────────────────────────────────────────────────────┘
-```
 
 ## 🛠️ Built With
 
@@ -170,16 +139,6 @@ This project is my submission for **Week 2: Lazy Automation** of the AI for Bhar
 
 **Theme:** Automate a repetitive task using AI tools
 **Solution:** Zero-manual-work expense tracking from bank SMS
-
-## 📝 License
-
-MIT License - feel free to use and modify!
-
-## 🙏 Acknowledgments
-
-- **AWS Builder Center** for hosting AI for Bharat
-- **Kiro Agent** for accelerating development
-- **Bank of Maharashtra** for consistent SMS format 😄
 
 ---
 
