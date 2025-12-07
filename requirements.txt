@@ -1,0 +1,10 @@
+# Real-Time Expense Tracker
+# AI for Bharat Week 2: Lazy Automation
+# 
+# No external dependencies required!
+# This project uses only Python standard library.
+#
+# Python 3.7+ recommended
+#
+# Optional dependencies for enhanced features:
+# colorama==0.4.6  # For Windows color support (uncomment if needed)
